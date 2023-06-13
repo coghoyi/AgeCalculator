@@ -1,5 +1,19 @@
+
+import Edad from "./components/edad/Edad";
+import Form from "./components/form/Form";
+import { GlobalStyles } from "./styles/globalstyles";
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+
+	return (
+		<>
+		<GlobalStyles/>
+		<div className="container">
+			<Form/>
+			<Edad/>
+		</div>
+		</>
+	)
 };
 
 export default App;
