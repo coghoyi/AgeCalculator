@@ -1,5 +1,3 @@
-
-import Edad from "./components/edad/Edad";
 import Form from "./components/form/Form";
 import { GlobalStyles } from "./styles/globalstyles";
 
@@ -10,7 +8,6 @@ const App = () => {
 		<GlobalStyles/>
 		<div className="container">
 			<Form/>
-			<Edad/>
 		</div>
 		</>
 	)

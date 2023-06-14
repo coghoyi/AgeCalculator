@@ -77,5 +77,11 @@ const StyledBoton = styled.input`
     
 
 `;
+const StyledH1 = styled.h1`
+    font-size: 104px;
+    font-weight: bold;
+    margin: 0;
+   
+`;
 
-export { StyledInput,StyledContainer, StyledDiv,StyledForm, StyledLabel, StyledBoton,StyledDivBoton,StyledCaja, StyledBorder,StyledBorderCaja };
+export { StyledInput,StyledContainer, StyledDiv,StyledForm, StyledLabel, StyledBoton,StyledDivBoton,StyledCaja, StyledBorder,StyledBorderCaja,StyledH1 };
